@@ -1,8 +1,14 @@
-# Welcome to your CDK TypeScript project
+# Offline-First Web App POC
 
-This is a blank project for CDK development with TypeScript.
+This is a proof of concept for an offline-first web app using AWS Amplify and AWS CDK. The app is a simple recipe managing graphql api that allows for creating and getting recipes
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+Some technologies used in this project are:
+- AWS CDK for infrastructure as code
+- AWS AppSync for the graphql api
+- AWS DynamoDB for the database storage of the recipes
+- AWS Amplify for the frontend and offline capabilities (not part of this repo)
+
+This repository is part of the blog post [Offline-First Recipe Manager with AWS AppSync and Amplify](https://blog.lucasdev.info/offline-first-recipe-manager-with-aws-appsync-and-amplify)
 
 ## Useful commands
 
